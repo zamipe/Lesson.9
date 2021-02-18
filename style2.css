@@ -1,0 +1,26 @@
+div {
+    color: green;
+}
+p {
+    color: green;
+}
+p:nth-of-type(2n+3) {
+    color: green;
+    }
+    .red-p {
+        color: red;
+    }
+.blue-p {
+    color:blue;
+}
+.blue-p span {color:yellow;
+}
+
+strong {font-weight: bold;}
+strong span {color: pink;}
+
+p[data-foo] {color: violet}
+
+.super-strange-paragraph:hover span {color: red;}
+
+
